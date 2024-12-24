@@ -1,0 +1,10 @@
+{% extends 'base.html' %} {% block content %}
+<center>
+  <p style="font-size: 200px">🏠</p>
+  <h1><strong>this is homepage</strong></h1>
+  <h4>
+    <a href="{{ url_for('user', name = 'amber') }}">this</a> is a link to user
+    profile
+  </h4>
+</center>
+{% endblock %}
